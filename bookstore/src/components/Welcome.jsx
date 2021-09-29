@@ -1,10 +1,9 @@
 import React from 'react'
-import { Jumbotron, Button, Container, Row, Col } from 'react-bootstrap'
+import { Jumbotron, Button, Row, Col } from 'react-bootstrap'
 
 export default function MyJumbotron() {
     return (
     
-    <Container>
        <Row className ="d-flex justify-content-center text-center mt-3">
             <Col>
                 <Jumbotron>
@@ -18,6 +17,5 @@ export default function MyJumbotron() {
                 </Jumbotron>
             </Col>
        </Row>
-    </Container>
     )
 }
